@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/back_design">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/signup"
+                android:layout_marginBottom="20dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edit_regemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_email"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:background="@drawable/edit_bg"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edit_regpwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_pwd"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:background="@drawable/edit_bg"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <EditText
+                android:id="@+id/edit_regconfpwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_cpwd"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:background="@drawable/edit_bg"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btn_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="@string/register"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:background="@drawable/edit_bg"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/signin_hint"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

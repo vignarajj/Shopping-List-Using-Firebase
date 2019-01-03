@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Daily Shopping List</string>
+    <string name="log_in">Log In</string>
+    <string name="hint_email">Enter your mail ID</string>
+    <string name="hint_pwd">Enter Password</string>
+    <string name="hint_cpwd">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign-Up</string>
+    <string name="register">Register</string>
+    <string name="signup_hint"> Dont have account? Sign Up here</string>
+    <string name="signin_hint"> Already have account? Sign In</string>
+</resources>
